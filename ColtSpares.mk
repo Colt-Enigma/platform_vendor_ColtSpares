@@ -40,3 +40,5 @@ DEVICE_PACKAGE_OVERLAYS += \
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
     vendor/ColtSpares/Overlays
 
+# Misc
+include vendor/ColtSpares/misc.mk
