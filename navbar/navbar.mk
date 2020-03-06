@@ -17,6 +17,10 @@ PRODUCT_PACKAGES += \
     GesturalNavigationOverlayLong \
     GesturalNavigationOverlayMedium \
     GesturalNavigationOverlayHidden \
+    AsusNavbarOverlay \
+    OnePlusNavbarOverlay \
+    OneUiNavbarOverlay \
+    TecnoCamonNavbarOverlay \
     GesturalNavigationRadiusLow \
     GesturalNavigationRadiusVeryLow \
     GesturalNavigationRadiusHidden
