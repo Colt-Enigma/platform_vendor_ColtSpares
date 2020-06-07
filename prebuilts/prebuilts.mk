@@ -7,12 +7,9 @@ PRODUCT_PACKAGES += \
     ColtPapers \
     GalleryGoPrebuilt \
     Lawnchair \
-    Longshot \
-    MarkupGoogle \
     OPScreenRecorder \
     PixelThemesStub2019 \
     SafetyHubPrebuilt \
-    SoundPickerPrebuilt \
     WeatherIcons
 
 # Lawnchair
