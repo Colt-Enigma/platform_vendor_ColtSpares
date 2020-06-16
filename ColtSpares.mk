@@ -17,10 +17,8 @@ LOCAL_PATH := $(call my-dir)
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
 
 # Include FOD Animations If Defined
-ifeq ($(EXTRA_FOD_ANIMATIONS),true)
 DEVICE_PACKAGE_OVERLAYS += vendor/ColtSpares/overlay/fod
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/ColtSpares/overlay/fod
-endif
 
 # Include Colt Fonts
 include vendor/ColtSpares/fonts/fonts.mk
