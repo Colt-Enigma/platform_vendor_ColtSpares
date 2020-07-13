@@ -5,9 +5,9 @@ include $(call all-subdir-makefiles,$(LOCAL_PATH))
 # Colt packages
 PRODUCT_PACKAGES += \
     ColtPapers \
-    GalleryGoPrebuilt \
     Lawnchair \
     OPScreenRecorder \
+    QPGallery \
     PixelThemesStub2019 \
     SafetyHubPrebuilt \
     WeatherIcons
