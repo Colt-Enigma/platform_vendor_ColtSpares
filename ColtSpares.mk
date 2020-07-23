@@ -23,7 +23,7 @@ PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/ColtSpares/overlay/fod
 endif
 
 # Include Colt Fonts
-include vendor/ColtSpares/fonts/fonts.mk
+include vendor/ColtSpares/config/fonts.mk
 
 # Include Colt Prebuilts
 include vendor/ColtSpares/prebuilts/prebuilts.mk
