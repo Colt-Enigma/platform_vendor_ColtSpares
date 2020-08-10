@@ -30,3 +30,13 @@ include vendor/ColtSpares/prebuilts/prebuilts.mk
 
 # Include Colt Themes
 include vendor/ColtSpares/themes/themes.mk
+
+# ColtOS Overlays
+# Adding extras to our needs related to ThemePicker
+DEVICE_PACKAGE_OVERLAYS += \
+    vendor/ColtSpares/Overlays
+
+# Let's ensure this gets merged on the final product files instead of RRO overlays
+PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
+    vendor/ColtSpares/Overlays
+
