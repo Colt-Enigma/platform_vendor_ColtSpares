@@ -42,3 +42,6 @@ PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
 
 # Misc
 include vendor/ColtSpares/misc.mk
+
+# Plugins
+include packages/apps/Plugins/plugins.mk
