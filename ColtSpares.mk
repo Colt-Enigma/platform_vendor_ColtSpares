@@ -77,3 +77,9 @@ PRODUCT_PACKAGES += \
     SwitchRetro \
     SwitchMD2 \
     SwitchOOS
+
+# Panel Background
+PRODUCT_PACKAGES += \
+    PanelBgBatik \
+    PanelBgKece \
+    PanelBgOutline
