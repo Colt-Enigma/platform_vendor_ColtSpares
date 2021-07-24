@@ -29,6 +29,8 @@ PRODUCT_PACKAGES += \
     IconPackKaiSettingsOverlay \
     IconPackKaiSystemUIOverlay \
     IconPackKaiPixelThemePickerOverlay \
+    IconPackOOSAndroidOverlay \
+    IconPackOOSSystemUIOverlay \
     IconPackRoundedAndroidOverlay \
     IconPackRoundedPixelLauncherOverlay \
     IconPackRoundedSettingsOverlay \
