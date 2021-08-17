@@ -34,10 +34,7 @@
             <inset android:insetLeft="5.0dip" android:insetRight="5.0dip">
                 <shape android:shape="rectangle">
                     <size android:height="13.0dip" />
-                    <gradient 
-                        android:startColor="@*android:color/gradient_start"
-                        android:endColor="@*android:color/gradient_end"
-                        android:angle="45"/>
+			<solid android:color="@*android:color/accent_device_default_light" />
                     <corners android:radius="5.0dip" />
                 </shape>
             </inset>

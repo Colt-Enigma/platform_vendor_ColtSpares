@@ -28,10 +28,7 @@
         <scale android:scaleWidth="100%">
             <shape android:shape="rectangle">
                 <size android:height="@*android:dimen/seekbar_track_progress_height_material" />
-                <gradient 
-                    android:startColor="@*android:color/gradient_start"
-                    android:endColor="@*android:color/gradient_end"
-                    android:angle="45" />
+			<solid android:color="@*android:color/accent_device_default_light" />
                 <corners android:radius="@*android:dimen/seekbar_track_progress_height_material" />
             </shape>
         </scale>
